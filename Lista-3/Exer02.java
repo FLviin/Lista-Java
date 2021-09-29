@@ -3,7 +3,7 @@
  * Flávio Guilherme de Oliveira
  */
  import java.util.Scanner;
-public class Exer2 {
+public class Exer02 {
 	
 	public static void main (String[] args) {
 		
