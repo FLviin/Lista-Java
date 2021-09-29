@@ -3,7 +3,7 @@
  * Flávio Guilherme de Oliveira
  */
 import java.util.Scanner;
-public class Exer1 {
+public class Exer01 {
 	
 	public static void main (String[] args) {
 		Scanner leia = new Scanner(System.in);
