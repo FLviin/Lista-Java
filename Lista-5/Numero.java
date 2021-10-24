@@ -45,17 +45,6 @@ public class Numero {
                 contador++;
             }
         }
-
-        /*
-         * if ( contador == 2 ) {
-         * 
-         * return true;
-         * 
-         * } else {
-         * 
-         * return false; }
-         */
-
         return (contador == 2);
     }
 
