@@ -21,7 +21,7 @@ public class Exer4 {
             data.setAno(leia.nextInt());
 
             System.out.println(" Data inserida é: " + data.mostraData());
-            System.out.print(" A Data é" + (data.dataValida() ? " Valida!" : " não é Valida!"));
+            System.out.print(" A Data é" + (data.dataValida() ? " Valida!" : " Invalida!"));
 
             System.out.print("\n Inserir Outra Data ? [S/N]: ");
             resposta = leiaStr.nextLine();
