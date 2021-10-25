@@ -19,7 +19,7 @@ public class Exer5 {
         System.out.print(" Entre com valor de C: ");
         c = leia.nextDouble();
 
-        System.out.print(" Raizes: [x' ; x''] = ");
+        System.out.print("\n Raizes: [x' ; x''] = ");
         Equacao.imprimir(Equacao.equacaoSegundoGrau(a, b, c));
     }
 }
