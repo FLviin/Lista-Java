@@ -63,10 +63,10 @@ public class Equacao {
         double retorna[] = new double[raizes];
 
         if (d > 0) {
-            retorna[0] = (-b + Math.sqrt(d)) / 2 * a;
-            retorna[1] = (-b - Math.sqrt(d)) / 2 * a;
+            retorna[0] = (-b + Math.sqrt(d)) / (2 * a);
+            retorna[1] = (-b - Math.sqrt(d)) / (2 * a);
         } else {
-            retorna[0] = -b / 2 * a;
+            retorna[0] = -b / (2 * a);
         }
 
         return retorna;
