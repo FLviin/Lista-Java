@@ -32,9 +32,12 @@ public class Exer4 {
         System.out.println("\n Segunda Data inserida é: " + datas.mostraData2());
         System.out.println(" Data é" + (datas.dataValida2() ? " Valida!" : " Invalida!"));
 
-        System.out.println("\n" + datas.compararData());
-
-        System.out.println("\n Diferença de Dias ==> " + datas.diferencaDias());
+        if (datas.dataValida() == true && datas.dataValida2() == true) {
+            System.out.println("\n" + datas.compararData());
+            System.out.println("\n Diferença de Dias ==> " + datas.diferencaDias());
+        } else {
+            System.out.println("\n DATAS INVALIDAS !!! ");
+        }
 
         System.out.println("\n\tFim do programa...\n");
     }

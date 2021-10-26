@@ -22,28 +22,40 @@ public class Data {
 
     // setData 1
     public void setDia(int dia) {
-        this.dia = dia;
+        if (dia >= 1 && dia <= 31) {
+            this.dia = dia;
+        }
     }
 
     public void setMes(int mes) {
-        this.mes = mes;
+        if (mes >= 1 && mes <= 12) {
+            this.mes = mes;
+        }
     }
 
     public void setAno(int ano) {
-        this.ano = ano;
+        if (ano >= 1 && ano <= 9999) {
+            this.ano = ano;
+        }
     }
 
     // setData 2
     public void setDia2(int dia2) {
-        this.dia2 = dia2;
+        if (dia2 >= 1 && dia2 <= 31) {
+            this.dia2 = dia2;
+        }
     }
 
     public void setMes2(int mes2) {
-        this.mes2 = mes2;
+        if (mes2 >= 1 && mes2 <= 12) {
+            this.mes2 = mes2;
+        }
     }
 
     public void setAno2(int ano2) {
-        this.ano2 = ano2;
+        if (ano2 >= 1 && ano2 <= 9999) {
+            this.ano2 = ano2;
+        }
     }
 
     // getData 1
@@ -84,12 +96,12 @@ public class Data {
 
     public boolean dataValida() {
 
-        return (dia >= 1 && dia <= 31 && mes >= 1 && mes <= 12 && ano >= 1 && ano <= 9999);
+        return (dia != 0 && mes != 0 && ano != 0);
     }
 
     public boolean dataValida2() {
 
-        return (dia2 >= 1 && dia2 <= 31 && mes2 >= 1 && mes2 <= 12 && ano2 >= 1 && ano2 <= 9999);
+        return (dia2 != 0 && mes2 != 0 && ano2 != 0);
     }
 
     private String pegaData() {
