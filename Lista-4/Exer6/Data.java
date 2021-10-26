@@ -135,16 +135,8 @@ public class Data {
 
     public long diferencaDias() {
 
-        ano = getAno();
-        mes = getMes();
-        dia = getDia();
         LocalDate data = LocalDate.of(ano, mes, dia);
-
-        ano2 = getAno2();
-        mes2 = getMes2();
-        dia2 = getDia2();
         LocalDate data2 = LocalDate.of(ano2, mes2, dia2);
-
         Long distaciaDias = ChronoUnit.DAYS.between(data, data2);
 
         return distaciaDias;
