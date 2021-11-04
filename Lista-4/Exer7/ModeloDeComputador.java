@@ -9,7 +9,7 @@ public class ModeloDeComputador {
     private double monitor;
 
     public ModeloDeComputador() {
-        this.placaMae = 850.00;
+        this.placaMae = 800.00;
         this.processador = 0.0;
         this.ram = 0.0;
         this.hd = 0.0;
@@ -23,52 +23,52 @@ public class ModeloDeComputador {
 
     public void setProcessador(double processador) {
         if (processador == 1) {
-            this.processador += processador + 700.00 - 1;
+            this.processador = 700.00;
         }
         if (processador == 2) {
-            this.processador += processador + 830.00 - 2;
+            this.processador = 830.00;
         }
         if (processador == 3) {
-            this.processador += processador + 910.00 - 3;
+            this.processador = 910.00;
         }
     }
 
     public void setRam(double ram) {
         if (ram == 1) {
-            this.ram += ram + 350.00 - 1;
+            this.ram = 350.00;
         }
         if (ram == 2) {
-            this.ram += ram + 700.00 - 2;
+            this.ram = 700.00;
         }
         if (ram == 3) {
-            this.ram += ram + 1400.00 - 3;
+            this.ram = 1400.00;
         }
         if (ram == 4) {
-            this.ram += ram + 2100.00 - 4;
+            this.ram = 2100.00;
         }
         if (ram == 5) {
-            this.ram += ram + 2800.00 - 5;
+            this.ram = 2800.00;
         }
     }
 
     public void setHd(double hd) {
         if (hd == 1) {
-            this.hd += hd + 300.00 - 1;
+            this.hd = 300.00;
         }
         if (hd == 2) {
-            this.hd += hd + 420.00 - 2;
+            this.hd = 420.00;
         }
         if (hd == 3) {
-            this.hd += hd + 500.00 - 3;
+            this.hd = 500.00;
         }
     }
 
     public void setMonitor(double monitor) {
         if (monitor == 1) {
-            this.monitor += monitor + 320.00 - 1;
+            this.monitor = 320.00;
         }
         if (monitor == 2) {
-            this.monitor += monitor + 520.00 - 2;
+            this.monitor = 520.00;
         }
     }
 
