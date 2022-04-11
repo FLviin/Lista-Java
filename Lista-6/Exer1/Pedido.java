@@ -16,7 +16,7 @@ public class Pedido {
 			System.out.println(" == Faça seu Pedido ==");
 			System.out.println("1) Add Frios");
 			System.out.println("2) Add Paozinho");
-            System.out.println("3) Add Doces");
+            		System.out.println("3) Add Doces");
 			System.out.println("4) Ver Pedido");
 			System.out.println("5) Ver Total do Pedido");
 			System.out.println("6) Sair");
