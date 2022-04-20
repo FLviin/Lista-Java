@@ -1,5 +1,5 @@
 ## Lista Java - Programação orientada a objeto 
-### Lista de Exercicios POO, FATEC - Guaratinguetá
+### Lista de Exercicios, FATEC - Guaratinguetá
 - Matrizes
 - Metodos 1
 - Metodos 2
